@@ -1,2 +1,2 @@
-# apache-spark
- This project is a Spark program designed to analyze real estate data by location.
+# Apache Spark Real Estate Analysis
+The project is a Spark program designed to analyze real estate data stored in a CSV file. The program reads the file, groups the data by location, and calculates the average price per square meter for each location. The results are sorted from lowest to highest, allowing the user to identify the most expensive locations. The final results are printed to the console and saved as a CSV file. The program uses the SparkSession API and Spark DataFrame transformations and actions to perform the analysis.
